@@ -26,7 +26,7 @@ public class OAuthSign {
 	    consumer.setMessageSigner(new HmacSha256MessageSigner());
 	    consumer.setTokenWithSecret(access_token, access_secret);
 	    
-	    String uri = "https://5298967-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=589&deploy=1";
+	    String uri = "https://5298967-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=624&deploy=1";
 	    HttpPost httppost= new HttpPost(uri);
 	    
 	    try {
